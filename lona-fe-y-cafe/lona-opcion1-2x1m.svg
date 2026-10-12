@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2000mm" height="1000mm" viewBox="0 0 1000 500">
+  <!-- Lona Fe & Café · Opción 1 · 2 × 1 m · 1 unidad = 2 mm -->
+  <rect width="1000" height="500" fill="#2F3A2B"/>
+  <!-- marco interior (a 4 cm del borde, libre para ojillos y bastilla) -->
+  <rect x="20" y="20" width="960" height="460" fill="none" stroke="#C9A45C" stroke-width="2" opacity=".75"/>
+  <!-- Logo: arco con taza y vapor en cruz (escala 1.9) -->
+  <g transform="translate(55 52) scale(1.95)">
+    <path d="M40 186 V92 A60 60 0 0 1 160 92 V186" fill="none" stroke="#C9A45C" stroke-width="4"/>
+    <path d="M50 186 V95 A50 50 0 0 1 150 95 V186" fill="none" stroke="#C9A45C" stroke-width="1.5" opacity=".6"/>
+    <path d="M72 124 H128 V140 A28 28 0 0 1 72 140 Z" fill="none" stroke="#F3EBDD" stroke-width="4" stroke-linejoin="round"/>
+    <path d="M128 128 a11 11 0 0 1 0 22" fill="none" stroke="#F3EBDD" stroke-width="4"/>
+    <path d="M62 176 H138" stroke="#F3EBDD" stroke-width="4" stroke-linecap="round"/>
+    <path d="M100 116 c-7 -8 7 -14 0 -22 c-7 -8 7 -14 0 -22" fill="none" stroke="#C9A45C" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M90 84 H110" stroke="#C9A45C" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+  <!-- Texto -->
+  <text x="470" y="226" font-family="Cormorant Garamond" font-weight="600" font-size="106" fill="#F3EBDD">Fe &amp; Café</text>
+  <path d="M474 268 H900" stroke="#C9A45C" stroke-width="1.5" opacity=".7"/>
+  <text x="474" y="318" font-family="Cormorant Garamond" font-style="italic" font-weight="500" font-size="30" fill="#C9A45C">“Venid a mí… y yo os haré descansar”</text>
+  <text x="474" y="356" font-family="Cormorant Garamond" font-style="italic" font-weight="500" font-size="24" fill="#C9A45C" opacity=".9">Mt 11,28</text>
+  <text x="474" y="418" font-family="Karla" font-weight="600" font-size="18" letter-spacing="5" fill="#F3EBDD" opacity=".9">CAFÉ · SILENCIO · COMUNIDAD</text>
+</svg>
